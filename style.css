@@ -1,0 +1,119 @@
+/* Add the following CSS rules at the end of the file */
+
+/* Hero Image */
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Menu Bar */
+header {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.logo h1 {
+  font-size: 30px;
+  font-weight: 1000;
+  color: orange;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+nav ul li a.active {
+  background-color: grey; /* Update with your desired color */
+}
+
+
+/* Book Cards */
+.book {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+  display: inline-block;
+}
+
+.book img {
+  width: 100px;
+  height: 150px;
+}
+
+.book h2 {
+  margin-top: 0;
+}
+
+.book p {
+  margin-bottom: 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(207, 28, 58);
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.book .button.clicked {
+  background-color: black;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  padding: 20px;
+}
+
+#about-us {
+  margin-top: 40px;
+}
+
+#about-us h2 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#about-us p {
+  color: #fff;
+}
